@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Assignment 3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src ="script.js"></script>
+
+  
+
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+  
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+   <div  class ="headtext "><p id="myName"></p></div>
+    
+   </div>
+
+     
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li id = "about_me" class="abc"><a href="Javascript:show_me();" >About Me</a></li>
+        <li id = "feeds" class="abc"><a href="Javascript:show_something();" >My Posts</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<button id ="getInfoBtn" class="button">Click here to load data</button>
+
+ 
+<div id = "dataplace" class="container hold_data">
+    <div id = "row1" class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div  class=" container-item ">
+        <span class="smallhead">Profile picture</span><p  id="profile_pic" class="smallhead pfpic" ></p>
+
+
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+        <div class=" container-item  ">
+        <img id=""  src="placeholder.png" alt="email icon">&nbsp;&nbsp;<span class="smallhead">Location</span><p id="hometown" class="smallhead" ></p>
+
+
+        </div>
+      </div>
+    </div>
+    <div id = "row2" class ="row ">
+       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div  class=" container-item ">
+          <img id=""  src="birthday-cake.png" alt="email icon">&nbsp;&nbsp;<span class="smallhead">Birthday</span><p id="bday" class="smallhead" ></p>
+          </div>
+       </div>
+       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div  class=" container-item ">
+        <img id=""  src="business-card.png" alt="id icon">&nbsp;&nbsp;<span class="smallhead">User id</span><p  id="userid" class="smallhead" ></p>
+
+
+        </div>
+      </div>
+    </div>
+    <div id = "row3" class ="row ">
+       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div  class=" container-item ">
+            <img id=""  src="email.png" alt="email icon">&nbsp;&nbsp;<span class="smallhead">Email</span><p  id="email" class="smallhead" ></p>
+            </div>
+
+
+
+           </div>
+       </div>
+      <div id = "row4" class ="row ">
+       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div id="edu" class=" container-item ">
+            <img id=""  src="student.png" alt="email icon">&nbsp;&nbsp;<span class="smallhead">Education</span>
+            </div>
+
+
+
+           </div>
+       </div>
+    
+
+<div id ="feedpage" class ="row ">
+       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div  id = "postdata" class=" container-item ">
+          <img id=""  src="user.png" alt="posts pic">&nbsp;&nbsp;<span class="smallhead">My Posts</span>
+          <div id ="newdata"></div><p id = "postpg"></p>
+          </div>
+       </div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+</body>
+
+</html>

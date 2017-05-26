@@ -1,0 +1,147 @@
+body {
+      
+      background-color: #E4F1FE;
+      
+      
+}
+.navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 20px;
+      font-family: 'Titan One', cursive;
+      
+}
+
+  .navbar-default{
+    padding-top: none;
+    background-color: #1E8BC3; /* Green */
+    color: #ffffff;
+    border: none;
+}
+  
+.headtext p {
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-bottom: 10px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 20px;
+      font-family: 'Titan One', cursive;
+            
+  }
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+.nav.navbar-nav.navbar-right li a:focus {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.container{
+  max-width: 90% !important;
+  overflow-x: hidden !important;
+}
+
+.simplestyle{
+  width: 100%;
+  max-width: 300px; /* Original width of the logo image */ 
+  margin-left: auto;
+  height:auto;
+  margin-right: auto;
+  text-align: center;
+  float: left;
+}
+
+.smallhead{padding-top: 15px;
+      padding-left: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 20px;
+      font-family: 'Titan One', cursive;}
+
+
+.hold_data {
+    background-color: #ffffff;
+	  margin:  auto;
+    width:90%;
+    height: auto;
+    margin-bottom:35px;
+    
+}
+
+.center {
+    margin: auto;
+    max-width: 400px;
+    min-height: 300px;
+    border: 3px ;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 25px; 
+    float:left;
+    horizontal-align:center;
+}
+
+.container-item {
+
+        min-height: 200px;
+        min-width: 200px;
+        padding: 10px;
+        vertical-align: middle;
+        horizontal-align:middle;
+        margin: 25px; 
+       /* outline: 3px dashed red; 
+        box-shadow: 0 0 0 3px blue;*/
+
+        
+    }
+
+.content_para{
+  font-family: cursive;
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+
+}
+
+.container-item p{
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 4vmin;
+      font-family: 'Titan One', cursive;
+
+}
+
+.pfpic img{
+
+  height: 100px;
+  width: 100px;
+}
